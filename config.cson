@@ -1,0 +1,58 @@
+"*":
+  "atom-package-deps":
+    ignored: [
+      "linter"
+    ]
+  core:
+    autoHideMenuBar: true
+    disabledPackages: [
+      "angularjs"
+    ]
+    ignoredNames: [
+      ".git"
+      "node_modules"
+    ]
+    packagesWithKeymapsDisabled: [
+      "Hydrogen"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "city-lights-syntax"
+    ]
+    uriHandlerRegistration: "always"
+  editor:
+    fontSize: 12
+  "exception-reporting":
+    userId: "5c5b4a50-74b8-4d54-a3ea-7400ae00bf86"
+  "file-icons":
+    coloured: false
+  "js-hyperclick": {}
+  "linter-eslint":
+    eslintrcPath: "./eslintrc.js"
+    lintHtmlFiles: true
+    scopes: [
+      "source.js"
+      "source.jsx"
+      "source.js.jsx"
+      "source.babel"
+      "source.js-semantic"
+      "text.html.vue"
+      "source.js.embedded.html"
+      "string.quoted.double.js"
+      "punctuation.definition.string.end.js"
+    ]
+    useGlobalEslint: true
+  minimap:
+    plugins:
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
+".html.text.vue":
+  editor:
+    showIndentGuide: true
